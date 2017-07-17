@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*
+*文件用途：自建css库；用于移动端页面开发，限制其宽度。
+
+*author：liuhan/jason
+
+*联系方式：981909006@qq.com
+
+*时间：2017/6/29
+
+*/
+.contra{width:100%;max-width:420px;margin:0 auto}

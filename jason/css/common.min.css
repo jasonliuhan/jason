@@ -1,0 +1,13 @@
+/*
+*文件用途：自建css库；用于页面格式化。
+
+*author：liuhan/jason
+
+*联系方式：981909006@qq.com
+
+*时间：2017/6/29
+
+* @charset "utf-8";
+
+*/
+a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{background:transparent;border:0;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-weight:normal}ol,ul{list-style:none}blockquote{quotes:none}blockquote:after,blockquote:before{content:'';content:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}a img{border:none;outline:none}a,a:link,a:visited{text-decoration:none}body{font-family:"微软雅黑";font-size:14px;font-weight:normal;color:#333;background:#eeeeee}.title{font-size:20px;font-family:"微软雅黑"}.floatL{float:left}.floatR{float:right}.mt5{margin-top:5px}.mr10{margin-right:10px}.ml10{margin-left:10px}.clear{clear:both}.clearfix{clear:both}.wrapBox .borderN{border:0}#hfImg{display:none;position:fixed;top:0;z-index:9999999}input{-webkit-appearance:none;border-radius:0;padding:0;margin:0}.img{width:100%}

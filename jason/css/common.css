@@ -1,0 +1,41 @@
+/*
+*文件用途：自建css库；用于页面格式化。
+
+*author：liuhan/jason
+
+*联系方式：981909006@qq.com
+
+*时间：2017/6/29
+
+* @charset "utf-8";
+
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { background: transparent; border: 0; margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+ol, ul { list-style: none; }
+blockquote { quotes: none; }
+blockquote:before, blockquote:after { content: ''; content: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+a img { border: none; outline: none; }
+a, a:link, a:visited { text-decoration: none; }
+/*整站字体*/
+body { font-family: "微软雅黑"; font-size: 14px; font-weight: normal; color: #333; background: #eeeeee; }
+.title { font-size: 20px; font-family: "微软雅黑"; }
+/*对齐*/
+.floatL { float: left; }
+.floatR { float: right; }
+/*间距*/
+.mt5 { margin-top: 5px; }
+.mr10 { margin-right: 10px; }
+.ml10 { margin-left: 10px; }
+/* 清除浮动层 */
+.clear {clear: both;}
+.clearfix { clear: both; }
+.wrapBox .borderN{ border:0px;}
+/* 引导图 */
+#hfImg { display: none; position: fixed; top: 0px; z-index: 9999999; }
+/* 去除自带样式 */
+input {-webkit-appearance:none; /*去除input默认样式*/ border-radius:0px; padding:0px; margin:0px;}
+.img{width: 100%;}
