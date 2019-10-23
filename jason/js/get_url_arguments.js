@@ -4,3 +4,7 @@ function getQueryString(name) {
 	if(r != null) return unescape(r[2]);
 	return null;
 };
+
+function getQueryString1(name){
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+}
