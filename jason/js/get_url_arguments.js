@@ -5,6 +5,3 @@ function getQueryString(name) {
 	return null;
 };
 
-function getQueryString1(name){
-	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-}
